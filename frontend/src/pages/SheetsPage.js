@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useCallback } from 'react';
 import { API, BACKEND_URL } from '../context/AuthContext';
 
-const SHEET_URL = 'https://docs.google.com/spreadsheets/d/YOUR_GOOGLE_SHEET_ID/edit';
+const SHEET_URL = 'https://docs.google.com/spreadsheets/d/1Vfhe1mxr5n8put3ZWTxiuvF6caveq9ld9ciFytT0NRQ/edit';
 
 export default function SheetsPage() {
   const [info, setInfo]         = useState(null);
