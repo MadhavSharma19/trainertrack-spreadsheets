@@ -1,0 +1,5 @@
+node_modules/
+trainer-data.xlsx
+.env
+*.log
+.DS_Store
