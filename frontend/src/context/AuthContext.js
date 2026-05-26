@@ -4,7 +4,7 @@ import axios from 'axios';
 const AuthContext = createContext(null);
 
 // ⚠️ REPLACE THIS with your actual deployed backend URL
-const BACKEND_URL = process.env.REACT_APP_BACKEND_URL || 'https://YOUR_DEPLOYED_BACKEND_URL_HERE';
+const BACKEND_URL = process.env.REACT_APP_BACKEND_URL || 'https://trainertrack-spreadsheets-production.up.railway.app';
 
 const API = axios.create({ baseURL: BACKEND_URL });
 
